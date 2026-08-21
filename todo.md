@@ -6,7 +6,7 @@ Resolver (pelo menos 1 de DFS e 1 de BFS, +0.3pts por cada obrigatório):
 * Uva Online Judge 336 A Node Too Far (BFS)
 * Uva Online Judge 10067 Playing with Wheels (BFS)
 
-# [~] Busca DFS e BFS
+# [x] Busca DFS e BFS
 
 * CSES 1668 Building Teams (DFS/BFS, +0.3pts)
 * CSES 1667 Message Route (BFS, +0.3pts)
