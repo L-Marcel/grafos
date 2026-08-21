@@ -7,8 +7,10 @@
 using namespace std;
 
 int next_team(int team) {
-  if (team == 1) return 2;
-  else return 1;
+  if (team == 1)
+    return 2;
+  else
+    return 1;
 }
 
 bool dfs(int i, int team, vector<int> *result, vector<vector<int>> *adj) {
@@ -16,7 +18,7 @@ bool dfs(int i, int team, vector<int> *result, vector<vector<int>> *adj) {
   stack.push(i);
   (*result)[i] = team;
 
-  while(!stack.empty()) {
+  while (!stack.empty()) {
     int current = stack.top();
     int current_team = (*result)[current];
     stack.pop();
@@ -58,7 +60,8 @@ int main() {
       team = next_team(team);
     }
 
-    if (!has_solution) break;
+    if (!has_solution)
+      break;
   }
 
   if (has_solution) {
