@@ -22,3 +22,16 @@ Um dos seguintes (por +0.3 pts)
 
 Ou (por +0.6 pts)
 * CSES 1193 Labyrinth
+
+# [] Aula menor caminho em grafos ponderados:
+
+Um dos seguintes em Dijkstra (por +0.4pts):
+- AtCoder 340D Super Takahashi Bros. https://atcoder.jp/contests/abc340/tasks/abc340_d
+- CSES 1671 Shortest Routes I https://cses.fi/problemset/task/1671/ (lembrar de usar long long)
+- CSES 1195 Flight Discount https://cses.fi/problemset/task/1195/
+- Uva 10986 Sending email https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1927
+- Uva 929 Number Maze https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=870
+
+Um dos seguintes em Bellman-Ford (por +0.4pts)
+- CSES 1197 Cycle finding https://cses.fi/problemset/task/1197/
+- Uva 558 Wormholes https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=499
