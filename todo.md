@@ -35,3 +35,7 @@ Um dos seguintes em Dijkstra (por +0.4pts):
 Um dos seguintes em Bellman-Ford (por +0.4pts)
 - CSES 1197 Cycle finding https://cses.fi/problemset/task/1197/
 - Uva 558 Wormholes https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=499
+
+Um dos seguintes em Floyd-Warshall (por +0.4pts)
+- CSES 1672 Shortest Routes II https://cses.fi/problemset/task/1672/
+- AtCoder 208D Shortest Path Queries 2 https://atcoder.jp/contests/abc208/tasks/abc208_d
