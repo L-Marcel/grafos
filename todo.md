@@ -23,7 +23,7 @@ Um dos seguintes (por +0.3 pts)
 Ou (por +0.6 pts)
 * CSES 1193 Labyrinth
 
-# [] Aula menor caminho em grafos ponderados:
+# [x] Aula menor caminho em grafos ponderados:
 
 Um dos seguintes em Dijkstra (por +0.4pts):
 - AtCoder 340D Super Takahashi Bros. https://atcoder.jp/contests/abc340/tasks/abc340_d
