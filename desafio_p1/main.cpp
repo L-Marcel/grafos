@@ -15,14 +15,14 @@ const int LAKE = 2;
 
 int main() {
   int w, h;
-  cin >> h >> w;
+  cin >> w >> h;
 
-  vector<vector<char>> matrix(w, vector<char>(h));
-  vector<vector<int>> states(w, vector<int>(h, UNKNOWN));
-  vector<vector<int>> debug_islands(w, vector<int>(h, -1));
+  vector<vector<char>> matrix(h, vector<char>(w));
+  vector<vector<int>> states(h, vector<int>(w, UNKNOWN));
+  vector<vector<int>> debug_islands(h, vector<int>(w, -1));
 
-  for (int i = 0; i < w; i++) {
-    for (int j = 0; j < h; j++) {
+  for (int i = 0; i < h; i++) {
+    for (int j = 0; j < w; j++) {
       char v;
       cin >> v;
       matrix[i][j] = v;
@@ -46,7 +46,7 @@ int main() {
         int x = k.first + dx;
         int y = k.second + dy;
 
-        if (x < 0 || x >= w || y < 0 || y >= h)
+        if (x < 0 || x >= h || y < 0 || y >= w)
           continue;
 
         if (states[x][y] == UNKNOWN && matrix[x][y] == WATER) {
@@ -63,8 +63,8 @@ int main() {
   int islands_with_lake = 0;
   int bigger = 0;
   int component = 0;
-  for (int i = 0; i < w; i++) {
-    for (int j = 0; j < h; j++) {
+  for (int i = 0; i < h; i++) {
+    for (int j = 0; j < w; j++) {
       if (states[i][j] == UNKNOWN) {
         components.push_back(vector<pair<int, int>>());
         queue.push({i, j});
@@ -86,7 +86,7 @@ int main() {
                 int x = k.first + dx;
                 int y = k.second + dy;
 
-                if (x < 0 || x >= w || y < 0 || y >= h)
+                if (x < 0 || x >= h || y < 0 || y >= w)
                   continue;
 
                 if (states[x][y] == UNKNOWN && matrix[x][y] == GROUND) {
@@ -116,8 +116,8 @@ int main() {
   }
 
   cout << "components: " << endl;
-  for (int i = 0; i < w; i++) {
-    for (int j = 0; j < h; j++) {
+  for (int i = 0; i < h; i++) {
+    for (int j = 0; j < w; j++) {
       if (debug_islands[i][j] == -1) {
         cout << ". ";
       } else {
@@ -128,16 +128,16 @@ int main() {
   }
 
   cout << "estados: " << endl;
-  for (int i = 0; i < w; i++) {
-    for (int j = 0; j < h; j++) {
+  for (int i = 0; i < h; i++) {
+    for (int j = 0; j < w; j++) {
       cout << states[i][j] << " ";
     }
     cout << endl;
   }
 
   cout << "matrix: " << endl;
-  for (int i = 0; i < w; i++) {
-    for (int j = 0; j < h; j++) {
+  for (int i = 0; i < h; i++) {
+    for (int j = 0; j < w; j++) {
       cout << matrix[i][j] << " ";
     }
     cout << endl;
