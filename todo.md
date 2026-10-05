@@ -39,3 +39,15 @@ Um dos seguintes em Bellman-Ford (por +0.4pts)
 Um dos seguintes em Floyd-Warshall (por +0.4pts)
 - CSES 1672 Shortest Routes II https://cses.fi/problemset/task/1672/
 - AtCoder 208D Shortest Path Queries 2 https://atcoder.jp/contests/abc208/tasks/abc208_d
+
+# [x] Aula Pontes/Vértices de articulação:
+
+Pontes (por +0.4pts):
+- CSES 2076 Necessary Roads https://cses.fi/problemset/task/2076
+Vértices de articulação (por +0.4pts):
+- CSES 2077 Necessary Cities https://cses.fi/problemset/task/2077
+
+# [x] Aula Árvore geradora mínima (por +0.4pts):
+
+- CSES 1675 Road Reparation https://cses.fi/problemset/task/1675/
+
