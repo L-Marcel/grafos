@@ -51,7 +51,7 @@ Vértices de articulação (por +0.4pts):
 
 - CSES 1675 Road Reparation https://cses.fi/problemset/task/1675/
 
-# [ ] Aula Fluxo em Redes:
+# [x] Aula Fluxo em Redes:
 
 Edmonds-Karp (por +0.6pts):
 - CSES 1694 Download Speed https://cses.fi/problemset/task/1694/
